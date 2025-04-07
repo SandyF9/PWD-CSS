@@ -93,8 +93,61 @@ p {
 </html>
 
 ## CSS How To
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+
 ## CSS Comments
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is a single-line comment */
+p {
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+
 ## CSS Colors
+Anda Dapat Mengetes Warna Di ColorZilla
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="/*border: 2px*/ solid Tomato;">Hello World</h1>
+
+<h1 style="/*border: 2px*/ solid DodgerBlue;">Hello World</h1>
+
+<h1 style="/*border: 2px*/ solid Violet;">Hello World</h1>
+
+</body>
+</html>
+
 ## CSS Backgrounds
 ## CSS Borders
 ## CSS Margins
