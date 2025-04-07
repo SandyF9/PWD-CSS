@@ -139,16 +139,17 @@ Anda Dapat Mengetes Warna Di ColorZilla
 <html>
 <body>
 
-<h1 style="/*border: 2px*/ solid Tomato;">Tomato Collor</h1>
+<h4 style="/*border: 2px*/ solid Tomato;">Tomato Collor</h4>
 
-<h1 style="/*border: 2px*/ solid DodgerBlue;">DodgerBlue collor</h1>
+<h4 style="/*border: 2px*/ solid DodgerBlue;">DodgerBlue collor</h4>
 
-<h1 style="/*border: 2px*/ solid Violet;">Violet Collor</h1>
+<h4 style="/*border: 2px*/ solid Violet;">Violet Collor</h4>
 
 </body>
 </html>
 
 ## CSS Backgrounds
+#### BackGround Color
 <ul>
   <li>background-color</li>
   <li>background-image</li>
@@ -167,12 +168,48 @@ body {
 </style>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h3>Hello World!</h3>
 <p>This page has a light blue background color!</p>
 </body>
 </html>
 
+#### BackGround Image
+body {
+background-image: url("paper.gif");
+background-image: url("bgdesert.jpg");
+}
+p {
+  background-image: url("paper.gif");
+}
+
+#### BackGround Repeat
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+#### BackGround Attachment
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
 ## CSS Borders
+<ul>
+  <li></li>dotted - Defines a dotted border</ul>
+  <li>dashed - Defines a dashed border</ul>
+  <li>solid - Defines a solid border</ul>
+  <li>double - Defines a double border</ul>
+  <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</ul>
+  <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</ul>
+  <li>inset - Defines a 3D inset border. The effect depends on the border-color value</ul>
+  <li>outset - Defines a 3D outset border. The effect depends on the border-color value</ul>
+  <li>none - Defines no border</ul>
+  <li>hidden - Defines a hidden border</ul>
+</ul>
+
 ## CSS Margins
 ## CSS Padding
 ## CSS Height/Width
