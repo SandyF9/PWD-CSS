@@ -198,16 +198,16 @@ body {
 
 ## CSS Borders
 <ul>
-  <li></li>dotted - Defines a dotted border</ul>
-  <li>dashed - Defines a dashed border</ul>
-  <li>solid - Defines a solid border</ul>
-  <li>double - Defines a double border</ul>
-  <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</ul>
-  <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</ul>
-  <li>inset - Defines a 3D inset border. The effect depends on the border-color value</ul>
-  <li>outset - Defines a 3D outset border. The effect depends on the border-color value</ul>
-  <li>none - Defines no border</ul>
-  <li>hidden - Defines a hidden border</ul>
+  <li>dotted - Defines a dotted border</li>
+  <li>dashed - Defines a dashed border</li>
+  <li>solid - Defines a solid border</li>
+  <li>double - Defines a double border</li>
+  <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</li>
+  <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</li>
+  <li>inset - Defines a 3D inset border. The effect depends on the border-color value</li>
+  <li>outset - Defines a 3D outset border. The effect depends on the border-color value</li>
+  <li>none - Defines no border</li>
+  <li>hidden - Defines a hidden border</li>
 </ul>
 
 ## CSS Margins
