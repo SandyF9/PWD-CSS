@@ -139,16 +139,39 @@ Anda Dapat Mengetes Warna Di ColorZilla
 <html>
 <body>
 
-<h1 style="/*border: 2px*/ solid Tomato;">Hello World</h1>
+<h1 style="/*border: 2px*/ solid Tomato;">Tomato Collor</h1>
 
-<h1 style="/*border: 2px*/ solid DodgerBlue;">Hello World</h1>
+<h1 style="/*border: 2px*/ solid DodgerBlue;">DodgerBlue collor</h1>
 
-<h1 style="/*border: 2px*/ solid Violet;">Hello World</h1>
+<h1 style="/*border: 2px*/ solid Violet;">Violet Collor</h1>
 
 </body>
 </html>
 
 ## CSS Backgrounds
+<ul>
+  <li>background-color</li>
+  <li>background-image</li>
+  <li>background-repeat</li>
+  <li>background-attachment</li>
+  <li>background-position</li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+<h1>Hello World!</h1>
+<p>This page has a light blue background color!</p>
+</body>
+</html>
+
 ## CSS Borders
 ## CSS Margins
 ## CSS Padding
