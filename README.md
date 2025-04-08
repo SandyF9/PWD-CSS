@@ -339,10 +339,10 @@ h2 {
 
 ## CSS Padding
 <ul>
-  <li>padding-top</li>
-  <li>padding-right</li>
-  <li>padding-bottom</li>
-  <li>padding-left </li>
+  <li>padding-top (25px) </li>
+  <li>padding-right (50px) </li>
+  <li>padding-bottom (75px) </li>
+  <li>padding-left (100px) </li>
 </ul>
 
 <!DOCTYPE html>
@@ -363,10 +363,185 @@ div {
 </body>
 </html>
 
+div {
+  padding: 25px 50px 75px 100px;
+}
+
 ## CSS Height/Width
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Set the max-width of an element</h2>
+
+<div>This div element has a height of 100px and a max-width of 500px.</div>
+
+<p>Resize the browser window to see the effect.</p>
+
+</body>
+</html>
+
 ## CSS Box Model
+320px (width of content area)
++ 20px (left padding + right padding)
++ 10px (left border + right border)
+= 350px (total width)
+
+  50px (height of content area)
++ 20px (top padding + bottom padding)
++ 10px (top border + bottom border)
+= 80px (total height)
+
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
 ## CSS Outline
+Outline adalah sebuah penebalan dalam tabel atau kolom.
+
+<ul> 
+  <li>outline-style</li>
+  <li>outline-color</li>
+  <li>outline-width</li>
+  <li>outline-offset</li>
+  <li>outline</li>
+</ul>
+#### Outline Width
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+p.ex2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+
+#### Outline color 
+p.ex1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+p.ex2 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+}
+
+p.ex3 {
+  border: 2px solid black;
+  outline-style: outset;
+  outline-color: grey;
+}
+
+#### Outline Shorles
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+
+#### Outline Offset
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
 ## CSS Text
+#### Text Color
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+#### Text Aliigment
+<ul>
+  <li>text-align</li>
+  <li>text-align-last</li>
+  <li>direction</li>
+  <li>unicode-bidi</li>
+  <li>vertical-align</li>
+</ul>
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: left;
+}
+h3 {
+  text-align: right;
+}
+
+#### Text Decoration
+<ul> 
+  <li>text-decoration-line</li>
+  <li>text-decoration-color</li>
+  <li>text-decoration-style</li>
+  <li>text-decoration-thickness</li>
+  <li>text-decorationv</li>
+</ul>
+
+h1 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+p {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
+}
+
 ## CSS Fonts
 ## CSS Icons
 ## CSS Links
