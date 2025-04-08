@@ -601,17 +601,341 @@ h1 {
 }
 
 ## CSS Fonts
+Memberikan berbagai font pada text.
 #### Font Family
+<ul>
+   <li>Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+   <li>Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.</li>
+   <li>Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. </li>
+   <li>Cursive fonts imitate human handwriting.</li>
+   <li>Fantasy fonts are decorative/playful fonts.</li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS font-family</h1>
+<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+<p class="p2">This is a paragraph, shown in the Arial font.</p>
+<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+
+</body>
+</html>
+
 #### Font Web Safe
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Fallback Fonts</h1>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
 #### Font Fallbacks
+<ul>
+  <li>Serif</li>
+  <li>Sans-serif</li>
+  <li>Monospace</li>
+  <li>Cursive</li>
+  <li>Fantasy</li>
+  <li>font-Family = Copperplate, Papyrus, fantasy</li>
+  <li>font-Family = "Brush Script MT", cursive</li>
+  <li>font-Family = "Courier New", Courier, monospace</li>
+</ul>
+
 #### Font Style
+<ul>
+  <li>normal - The text is shown normally</li>
+  <li>italic - The text is shown in italics</li>
+  <li>oblique - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+</style>
+</head>
+<body>
+
+<h1>The font-style property</h1>
+
+<p class="normal">This is a paragraph in normal style.</p>
+<p class="italic">This is a paragraph in italic style.</p>
+<p class="oblique">This is a paragraph in oblique style.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+</style>
+</head>
+<body>
+
+<h1>The font-weight property</h1>
+
+<p class="normal">This is a paragraph.</p>
+<p class="light">This is a paragraph.</p>
+<p class="thick">This is a paragraph.</p>
+<p class="thicker">This is a paragraph.</p>
+
+</body>
+</html>
+
 #### Font Size
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
 #### Font Google
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>Sofia Font</h1>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>123456790</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<style>
+body {
+  font-family: "Trirong", serif;
+}
+</style>
+</head>
+<body>
+
+<h1>Trirong Font</h1>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>123456790</p>
+
+</body>
+</html>
+
 #### Font Pairing
+Pelengkap Font dengan style warna.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: gray;  
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Beautiful Norway</h1>
+<p>Norway has a total area of 385,252 square kilometers and a population of 5,438,657 (December 2020). Norway is bordered by Sweden, Finland and Russia to the north-east, and the Skagerrak to the south, with Denmark on the other side.</p>
+<p>Norway has beautiful mountains, glaciers and stunning fjords. Oslo, the capital, is a city of green spaces and museums. Bergen, with colorful wooden houses, is the starting point for cruises to the dramatic Sognefjord. Norway is also known for fishing, hiking and skiing.</p>
+</body>
+</html>
+
 #### Font Shorthand
+<ul>
+  <li>font-style</li>
+  <li>font-variant</li>
+  <li>font-weight</li>
+  <li>font-size/line-height</li>
+  <li>font-family</li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.a {
+  font: 20px Arial, sans-serif;
+}
+
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+</style>
+</head>
+<body>
+
+<h1>The font Property</h1>
+
+<p class="a">This is a paragraph. The font size is set to 20 pixels, and the font family is Arial.</p>
+
+<p class="b">This is a paragraph. The font is set to italic, small-caps and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
+
+</body>
+</html>
 
 ## CSS Icons
+Menmbahkan icon ke dalam html dan css.
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+</body>
+</html>
+
 ## CSS Links
+Menambahkan link ke dalam html dengan css dan warna.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a {
+  color: hotpink;
+}
+</style>
+</head>
+<body>
+
+<h2>Style a link with a color</h2>
+
+<p><b><a href="default.asp" class="link" target="_blank">This is a link</a></b></p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<h2>Styling a link with text-decoration property</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
+
 ## CSS Lists
 ## CSS Tables
 ## CSS Display
