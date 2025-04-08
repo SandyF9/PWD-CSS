@@ -593,7 +593,14 @@ h1 {
 }
 
 ## CSS Fonts
-
+#### Font Family
+#### Font Web Safe
+#### Font Fallbacks
+#### Font Style
+#### Font Size
+#### Font Google
+#### Font Pairing
+#### Font Shorthand
 
 ## CSS Icons
 ## CSS Links
