@@ -542,7 +542,59 @@ p {
   text-decoration-color: purple;
 }
 
+#### Text Tranformation
+Berbagai Text Menarik.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+</style>
+</head>
+<body>
+
+<h1>Using the text-transform property</h1>
+
+<p class="uppercase">This text is transformed to uppercase.</p>
+<p class="lowercase">This text is transformed to lowercase.</p>
+<p class="capitalize">This text is capitalized.</p>
+
+</body>
+</html>
+
+
+#### Text Spacing
+Pemberi jarak pada text dalam dan dapat digunakan untuk memperbaiki text juga.
+<ul>
+  <li>text-indent</li>
+  <li>letter-spacing</li>
+  <li>line-height</li>
+  <li>word-spacing</li>
+  <li>white-space</li>
+</ul>
+p {
+  text-indent: 50px;
+}
+
+#### Text Shadow
+Memberikan Penebalan atau bayangan pada text
+h1 {
+  text-shadow: 2px 2px;
+}
+
 ## CSS Fonts
+
+
 ## CSS Icons
 ## CSS Links
 ## CSS Lists
