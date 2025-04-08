@@ -2,6 +2,7 @@
 Cascading Style Sheets (CSS) bahasa pemrograman yang digunakan untuk mengatur tampilan atau gaya (styling) dari halaman web yang dibuat dengan HTML.
 
 ## HTML HOME
+Memberikan Warna pada background, text.
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,6 +53,7 @@ p {
 </html>
 
 ## CSS Syntax 
+Text berada pada tengah menggunakan center dan text berwarna.
 <ul>
   <li> p is a selector in CSS it points HTML element you want to style p </li>
   <li> color is a property, and red is the property value </li>
@@ -75,6 +77,7 @@ p {
 </html>
 
 ## CSS Selector
+#Paral memberikan bagian bagian, atau membagi tugas menjadi beberapa bagian yang dapat dikerjakan secara bersamaan. 
 <!DOCTYPE html>
 <html>
 <head>
@@ -134,7 +137,7 @@ p {
 </html>
 
 ## CSS Colors
-Anda Dapat Mengetes Warna Di ColorZilla
+Anda Dapat Mengetes Warna Di ColorZilla.
 <!DOCTYPE html>
 <html>
 <body>
@@ -174,6 +177,7 @@ body {
 </html>
 
 #### BackGround Image
+Memberikan warna pada background, dan warna warna pada gambar.
 body {
 background-image: url("paper.gif");
 background-image: url("bgdesert.jpg");
@@ -197,6 +201,7 @@ body {
 }
 
 ## CSS Borders
+Memberikan berbagai jenis tabel, dll, serta warna.
 #### Border 
 <ul>
   <li>dotted - Defines a dotted border</li>
@@ -338,6 +343,7 @@ h2 {
 }
 
 ## CSS Padding
+Hampir sama, yaitu memberikan jarak, supaya text menjadi terstruktur. Pada Pading memberikan jarak dari kiri.
 <ul>
   <li>padding-top (25px) </li>
   <li>padding-right (50px) </li>
@@ -368,6 +374,7 @@ div {
 }
 
 ## CSS Height/Width
+Tinggi dan lebar.
 div {
   height: 200px;
   width: 50%;
@@ -397,6 +404,7 @@ div {
 </html>
 
 ## CSS Box Model
+Membuat isi di dalam box, dengan berbagai style warna.
 320px (width of content area)
 + 20px (left padding + right padding)
 + 10px (left border + right border)
