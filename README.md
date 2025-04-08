@@ -197,6 +197,7 @@ body {
 }
 
 ## CSS Borders
+#### Border 
 <ul>
   <li>dotted - Defines a dotted border</li>
   <li>dashed - Defines a dashed border</li>
@@ -247,8 +248,121 @@ p.mix {border-style: dotted dashed solid double;}
 </body>
 </html>
 
+#### Border Width
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+#### Border Color
+<ul>
+  <li>name - specify a color name, like "red"</li>
+  <li>HEX - specify a HEX value, like "#ff0000"</li>
+  <li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+  <li>HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li>
+  <li>transparent</li>
+</ul>
+
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+#### Border Sides
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+p {
+border-style: dotted solid;
+}
+
+#### Border Shortland
+p {
+  border: 5px solid red;
+}  
+p {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+#### Rounded border
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
 ## CSS Margins
+Margin adalah pemberi jarak.
+div {
+  margin: 200px;
+  border: 1px solid #4CAF50;
+}  
+<ul> margin-top</ul>
+<ul> margin-right</ul>
+<ul> margin-bottom</ul>
+<ul> margin-left</ul>
+
+#### Margin Colapse
+h1 {
+  margin: 0 0 50px 0;
+}
+h2 {
+  margin: 20px 0 0 0;
+}
+
 ## CSS Padding
+<ul>
+  <li>padding-top</li>
+  <li>padding-right</li>
+  <li>padding-bottom</li>
+  <li>padding-left </li>
+</ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Padding</h2>
+<div>This element has a padding of 70px.</div>
+
+</body>
+</html>
+
 ## CSS Height/Width
 ## CSS Box Model
 ## CSS Outline
