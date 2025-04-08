@@ -2179,13 +2179,154 @@ body {
 </html>
 
 ## CSS Units
+Membuat Halaman dengan huruf, hampir sama dengan h1,h2, dan p. Yang ada di M.WORD
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  font-size: 60px;
+}
 
+p {
+  font-size: 25px;
+  line-height: 50px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
 
 ## CSS Specificity
+Memberikan Spesifikasi pada text, dapat berupa text agak keburaman maupun pudar, dan cerah.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#demo {color: blue;}
+.test {color: green;} 
+p {color: red;} 
+</style>
+</head>
+<body>
+
+<p id="demo" class="test" style="color: pink;">Hello World!</p>
+
+</body>
+</html>
+
 ## CSS !important
+Membuka halaman pada text, yang inggin di tuju. Tetapi langsung masuk ke dalam situs web orang tanpa harus dari halaman depan. Dan memberikan warna pada setiap web yang telah di kunjungi.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #8c8c8c !important; 
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important; 
+}
+
+#myDiv a {
+  color: red;
+  background-color: yellow;  
+}
+</style>
+</head>
+<body>
+
+<p>Standard button: <a class="button" href="default.asp">CSS Tutorial</a></p>
+
+<div id="myDiv">
+<p>A link text inside myDiv: <a href="/html/">HTML Tutorial</a></p>
+<p>A link button inside myDiv: <a href="/html/" class="button">HTML Tutorial</a></p>
+</div>
+
+</body>
+</html>
+
 ## CSS Math Functions
+Memperluas bagian kolom, dan memperbaiki kolom. Dan memberikan kolom pada halaman tertentu.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#div1 {
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>The calc() Function</h1>
+
+<p>Create a div that stretches across the window, with a 50px gap between both sides of the div and the edges of the window:</p>
+
+<div id="div1">Some text...</div>
+
+</body>
+</html>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#div1 {
+  background-color: yellow;
+  height: 100px;
+  width: max(50%, 300px);
+}
+</style>
+</head>
+<body>
 
+<h1>The max() Function</h1>
 
+<p>Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:</p>
 
+<div id="div1">Some text...</div>
+
+<p>Resize the browser window to see the effect.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#div1 {
+  background-color: yellow;
+  height: 100px;
+  width: min(50%, 300px);
+}
+</style>
+</head>
+<body>
+
+<h1>The min() Function</h1>
+
+<p>Use min() to set the width of #div1 to whichever value is smallest, 50% or 300px:</p>
+
+<div id="div1">Some text...</div>
+
+<p>Resize the browser window to see the effect.</p>
+
+</body>
+</html>
